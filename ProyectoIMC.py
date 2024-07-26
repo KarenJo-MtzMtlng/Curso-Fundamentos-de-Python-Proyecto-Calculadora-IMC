@@ -4,16 +4,29 @@ nombre= input("Introduce tu nombre: ")
 print ("Hola",nombre,"estamos felices de poder ayudarte!")
 
 print()
-estatura_cm=input("Introduzca su estatura en cm: ")
-estatura_m=int(estatura_cm)/100
-peso=input("Introduzca su peso en kg: ")
-peso=float(peso)
 
+estatura_cm=input("Introduzca su estatura en cm: ")
+
+while not estatura_cm.isdigit():
+    print("Por favor, introduzca una estatura válida.")
+    estatura_cm = input("Introduzca su estatura en cm: ")
+
+estatura_m = int(estatura_cm) / 100
+
+peso=input("Introduzca su peso en kg: ")
+
+while not peso.isdigit():
+    print("Por favor, introduzca un peso válido")
+    peso = input("Introduzca su peso en kg: ")
+
+peso= float(peso)
+    
 denominador= estatura_m**2
 numerador= peso
 IMC= numerador/denominador
 print()
-print("Su IMC es igual a: ",IMC)
+IMC_redondeado = round(IMC, 2)
+print("Su IMC es igual a: ",IMC_redondeado)
 
 if IMC <= 18.5:
     print("Clasificación: Bajo Peso")
