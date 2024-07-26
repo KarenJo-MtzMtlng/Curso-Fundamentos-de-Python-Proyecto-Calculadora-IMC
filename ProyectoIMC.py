@@ -13,7 +13,7 @@ denominador= estatura_m**2
 numerador= peso
 IMC= numerador/denominador
 print()
-print("Su IMC es igual a",IMC)
+print("Su IMC es igual a: ",IMC)
 
 if IMC <= 18.5:
     print("Clasificación: Bajo Peso")
