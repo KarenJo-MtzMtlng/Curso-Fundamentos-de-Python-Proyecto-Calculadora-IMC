@@ -1,4 +1,5 @@
 El propósito de este código es ser una calculadora de IMC para el usuario, este pide el nombre, apellido paterno, apellido materno, edad, estatura en cm y peso en kg.
+En este código se crearon variables para añadir colores en la terminal.
 En caso de introducir un nombre, apellido paterno, y/o apellido materno que contenga algún caracter diferente a las letras estos son aceptados.
 En caso de introducir una edad que contenga algún caracter que no sea numérico, esta no es aceptada y aparece el anuncio "Por favor, introduzca una edad válida." Si el usuario es menor de edad aparece la advertencia "Use la calculadora sabiamente", si es mayor de edad, esta no aparece.
 En caso de introducir una estatura en cm que contenga algún caracter que no sea numérico, esta no es aceptada y aparece el anuncio "Por favor, introduzca una estatura válida.".
