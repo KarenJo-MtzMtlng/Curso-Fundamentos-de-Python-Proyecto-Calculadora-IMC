@@ -19,7 +19,6 @@ print (f"{CYAN}Hola",nombre,apellidopaterno,apellidomaterno,f"{CYAN}estamos feli
  
 print()
 edad= input("Introduzca su edad: ")
-
 while not edad.isdigit():
     print("Por favor, introduzca una edad válida.")
     edad= input("Introduzca su edad: ")
@@ -83,3 +82,5 @@ print(f"{YELLOW}Gracias", nombre, f"{YELLOW}por usar nuestra calculadora!{RESET}
 
 
  
+
+
