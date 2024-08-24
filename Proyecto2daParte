@@ -1,0 +1,51 @@
+#Este es el segundo programa
+
+print("Bienvenido a la Identificadora de Cuadrante")
+
+print("Instrucción: Con base a las coordenadas que ingrese \nse le dará su respectivo cuadrante en el Sistema Cartesiano.")
+print()
+
+while True:
+ 
+ Valor_X= int(input("Ingrese el valor en X: "))
+
+ if Valor_X==0:
+    print(f"El valor {Valor_X} se encuentra en el origen, por favor, ingresa un valor diferente.")
+    continue   # Volver a pedir el valor de X si es 0. Se reinicia el bucle.
+ break # Si el valor es diferente de 0, sale del bucle.
+
+while True:
+ Valor_Y = int(input("Ingrese un valor en Y: "))
+
+ if Valor_Y==0:
+   print(f"El valor {Valor_Y} se encuentra en el origen, por favor, ingresa un valor diferente.")
+   continue  # Volver a pedir el valor de Y si es 0. Se reinicia el bucle.
+ break # Si el valor es diferente de 0, sale del bucle.
+
+print()
+print(f"Sus coordenadas son {Valor_X},{Valor_Y}")
+
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+print("         ")
+
+  
+
+
+
+
+
+
+  
