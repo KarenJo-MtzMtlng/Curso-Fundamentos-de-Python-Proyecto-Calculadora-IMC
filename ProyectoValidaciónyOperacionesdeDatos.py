@@ -71,12 +71,14 @@ if Valor_X >0 and Valor_Y >0:
   print("       │   ")
   print("       │   ")
   print("───────┼──────────────────")
-  print("       │   ")   
+  print("       │   ")  
+  print("       │") 
   print()     
 
 if Valor_X >0 and Valor_Y < 0:
   print(f"{CIAN}Este punto en el plano está en el Cuarto Cuadrante{RESET}")
   print()
+  print("       │   ")
   print("       │   ")
   print("───────┼──────────────────")            
   print("       │   ") 
@@ -103,12 +105,14 @@ if Valor_X <0 and Valor_Y>0:
   print("                  │   ")
   print("                  │   ")
   print("──────────────────┼───────")
-  print("                  │   ")  
+  print("                  │   ") 
+  print("                  │   ")
   print()   
 
 if Valor_X <0 and Valor_Y <0:
   print(f"{CIAN}Este punto en el plano está en el Tercer Cuadrante{RESET}")
   print()
+  print("                  │   ")
   print("                  │   ")
   print("──────────────────┼───────")            
   print("                  │   ") 
