@@ -74,7 +74,7 @@ elif IMC >= 40:
     print("Clasificación: Obesidad 3")
     print(f"{RED}Peligro! Realice dieta con disciplina y consulte a un nutriólogo.{RESET}")
 print()
-print(f"{YELLOW}Gracias", nombre, f"{YELLOW}por usar nuestra calculadora!{RESET}")
+print(f"{YELLOW}¡Gracias", nombre, f"{YELLOW}por usar nuestra calculadora!{RESET}")
 
 
 

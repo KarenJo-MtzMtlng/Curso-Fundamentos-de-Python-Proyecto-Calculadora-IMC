@@ -1,8 +1,10 @@
-#Este es el segundo programa
+VERDE = "\033[92m"
+CIAN = "\033[96m"
+AMARILLO = "\033[93m"
+RESET = "\033[0m"
 
-print("Bienvenido a la Identificadora de Cuadrante")
-
-print("Instrucción: Con base a las coordenadas que ingrese \nse le dará su respectivo cuadrante en el Sistema Cartesiano.")
+print(f"{VERDE}Bienvenido a la Identificadora de Cuadrante{RESET}")
+print("Instrucción: Según las coordenadas que proporcione, se\ndeterminará el cuadrante correspondiente en el Plano Cartesiano.")
 print()
 
 while True:
@@ -24,28 +26,22 @@ while True:
 
 print()
 print(f"Sus coordenadas son {Valor_X},{Valor_Y}")
+print()    
 
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
-print("         ")
+if Valor_X >0 and Valor_Y >0:
+  print(f"{CIAN}Este punto en el plano está en el Primer Cuadrante{RESET}")
 
-  
+if Valor_X >0 and Valor_Y < 0:
+  print(f"{CIAN}Este punto en el plano está en el Cuarto Cuadrante{RESET}")
+ 
+if Valor_X <0 and Valor_Y>0:
+  print(f"{CIAN}Este punto en el plano está en el Segundo Cuadrante{RESET}")
 
+if Valor_X <0 and Valor_Y <0:
+  print(f"{CIAN}Este punto en el plano está en el Tercer Cuadrante{RESET}")
 
-
-
+print()
+print(f"{AMARILLO}¡Gracias por usar esta Identificadora de Cuadrante!{RESET}")
 
 
   
