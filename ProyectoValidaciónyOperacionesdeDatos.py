@@ -58,7 +58,7 @@ print(f"Sus coordenadas son {Valor_X},{Valor_Y}") #Imprimir las coordenadas ingr
 print()    
 
 #Identificar y mostrar en qué cuadrante se encuentra el punto según las coordenadas.
-if Valor_X >0 and Valor_Y >0:
+if Valor_X >0 and Valor_Y >0: #Si el Valor_X es mayor a 0 y el Valor_Y es mayor a 0, entonces se despliega lo siguiente.
   print(f"{CIAN}Este punto en el plano está en el Primer Cuadrante{RESET}")
   print()
   print("       │   ") 
@@ -75,7 +75,7 @@ if Valor_X >0 and Valor_Y >0:
   print("       │") 
   print()     
 
-if Valor_X >0 and Valor_Y < 0:
+if Valor_X >0 and Valor_Y < 0: #Si el Valor_X es mayor a 0 y el Valor_Y es menor a 0, entonces se despliega lo siguiente.
   print(f"{CIAN}Este punto en el plano está en el Cuarto Cuadrante{RESET}")
   print()
   print("       │   ")
@@ -92,7 +92,7 @@ if Valor_X >0 and Valor_Y < 0:
   print("       │   ")   
   print()
  
-if Valor_X <0 and Valor_Y>0:
+if Valor_X <0 and Valor_Y>0: #Si el Valor_X es menor a 0 y el Valor_Y es mayor a 0, entonces se despliega lo siguiente.
   print(f"{CIAN}Este punto en el plano está en el Segundo Cuadrante{RESET}")
   print()
   print("                  │   ") 
@@ -109,7 +109,7 @@ if Valor_X <0 and Valor_Y>0:
   print("                  │   ")
   print()   
 
-if Valor_X <0 and Valor_Y <0:
+if Valor_X <0 and Valor_Y <0: #Si el Valor_X es menor a 0 y el Valor_Y es menor a 0, entonces se despliega lo siguiente.
   print(f"{CIAN}Este punto en el plano está en el Tercer Cuadrante{RESET}")
   print()
   print("                  │   ")
