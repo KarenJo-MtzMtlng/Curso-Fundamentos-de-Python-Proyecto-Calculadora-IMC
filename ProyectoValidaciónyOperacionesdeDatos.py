@@ -3,6 +3,7 @@ CIAN = "\033[96m"
 AMARILLO = "\033[93m"
 RESET = "\033[0m"
 
+#Este es el primer programa
 print(f"{VERDE}Bienvenido a la Calculadora de Longitud de Palabras{RESET}") #Muestra un mensaje de bienvenida en color.
 print()
 while True: #Inicia un bucle infinito para solicitar palabras hasta que se ingrese una palabra válida.
@@ -37,7 +38,6 @@ print("Instrucción: Según las coordenadas que proporcione, se\ndeterminará el
 print()
 
 while True: #Bucle infinito para pedir el valor de X.
- 
  Valor_X= int(input("Ingrese el valor en X: ")) #Solicitar al usuario el valor de X.
 
  if Valor_X==0: #Si el valor de X es 0, se despliega un mensaje que menciona que se encuentra en el origen.
